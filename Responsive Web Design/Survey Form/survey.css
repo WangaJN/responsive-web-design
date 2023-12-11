@@ -1,0 +1,58 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+body {
+    background-image: url("https://i.imgur.com/NQNdq2J.jpg");
+    background-size: cover;
+   }
+header{
+    margin: 0px 0px 8px;
+}
+div{
+    margin: 0px 0px 20px;
+    padding:4px;
+}
+h1{
+    font-size: 32px;
+}
+header p{
+    font-size:18px ;
+}
+:root{
+    --text-color:#F3F3F3;
+    --form-color:#1B1B32CC;
+}
+#container{
+    margin: 50px 295px ;
+}
+header{
+    text-align: center;
+}
+#surveyForm{
+    padding: 40px;
+    background-color: var(--form-color);
+}
+label{
+    display: flex;
+    color: var(--text-color);
+}
+input , select{
+    padding: 6px 12px;
+    border-radius:  5%;
+}
+.radio-button{
+    display: inline;
+}
+.checkBox {
+    display:inline;
+}
+button{
+    width: 100%;
+    background-color: rgb(72, 150, 72);
+    color: white;
+
+}
+
+
+/* tutoring background picture url: "https://i.imgur.com/NQNdq2J.jpg" */

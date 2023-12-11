@@ -1,0 +1,38 @@
+#main{
+    color:#333333;
+    font: 16px  Arial, sans-serif;
+    background-color:#EEEEEE; margin:30px 8px;
+    padding:15px;
+    display:flex; 
+    align-items:center;
+  }
+  #title{
+    text-align:center;
+    color:#333333;
+    font:40px;
+    margin:26.8px 0 0;
+  }
+  p{
+    color:#333333;
+    margin: 16px 0px;
+    text-align:center;
+    font:16px;
+  }
+  
+  #image {
+    display:block;
+      width: 450px;
+      border: 2px solid grey;
+      max-width:100%;
+      height:auto;
+      overflow: hidden; 
+      text-align:center
+  }
+  
+  img {
+    height: 100%;
+    width: auto;
+}
+video::-webkit-media-controls{
+    display:none;
+}

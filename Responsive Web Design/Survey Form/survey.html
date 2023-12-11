@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+    <header>
+        <h1>QuikTeach Survey Form</h1>
+        <p>Thank you for taking time to help us improve the service</p>
+    </header>
+    <div id="form" class="form">
+        <form id="surveyForm">
+            <div id="Name" class="formGroup">
+                <label for="name" class="name" >Name</label>
+                <input type="name" placeholder="Enter your Name" for="name" class="name" required>
+            </div>
+            <div id="Email" class="formGroup">
+                <label for="email" class="email" >Email</label>
+                <input type="email" placeholder="Enter your Email" for="email" class="email" required>
+            </div>
+            <div id="Age" class="formGroup">
+                <label for="age" class="age" >Age (optional)</label>
+                <input type="number" placeholder="Age" for="age" class="age" min="12" max="80">
+            </div>
+            <div id="Role" class="formGroup">
+                <label>Which option best describes your current role ?</label>
+                <select name="role" class="roles" required>
+                    <option value="">select your curent role</option>
+                    <option value="student">Student</option>
+                    <option value="graduate">QuikTeach Graduate </option>
+                    <option value="guardian">Guardian/parent</option>
+                    <option value="prefer not to say">Prefer not to say</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div id="recommendButton" class="formGroup" >
+                <label  class="recommend">Would you recommend QuikTeach to a friend ?</label>
+                
+                <input type="radio" id="Definitely" class="radio-button" name="recommend" for="recommend" value="Definitely">
+                <label for="recommend" class="radio-button">Definitely</label><br>
+
+                <input type="radio" id="Maybe" class="radio-button" name="recommend" for="recommend" value="Maybe">
+                <label for="recommend" class="radio-button">Maybe</label><br>
+
+                <input type="radio" id="Not-Sure" class="radio-button" name="recommend" for="recommend" value="Not-Sure">
+                <label for="recommend" class="radio-button">Not Sure</label><br>
+
+
+            </div>
+            <div id="practice" class="formGroup" >
+                <label>What are your favorite practices of QuikTeach?</label>
+
+                <input type="checkbox"  class="checkbox" name="practice" for="practice" value="Pricing">
+                <label for="practice" class="checkBox">Pricing</label><br>
+            
+                <input type="checkbox"  class="checkBox" name="practice" for="practice" value="Organisation">
+                <label for="practice" class="checkBox">Organisation</label><br>
+                
+                <input type="checkbox"  class="checkbox" name="practice" for="practice" value="Discounts">
+                <label for="practice" class="checkBox">Discounts</label><br>
+ 
+                <input type="checkbox"  class="checkbox" name="practice" for="practice" value="Quality">
+                <label for="practice" class="checkBox">Quality of lessons </label><br>
+                  
+            </div>
+            <div id="text-Area" class="formGroup">
+                <label>What would you like to see improved?</label>
+                <textarea id="improvements" name="improvements" rows="4" cols="50" placeholder="Enter your comments or any suggestions here ..." required></textarea>
+            </div>
+            <div id="submit">
+                <button type="submit">submit</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+</body>
+</html>
